@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/currency_converter",
+            "baseHref": "/Converter/",
+            "outputPath": "dist/Converter",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "80f96c3f-e656-44c5-8c26-18ea789abe80"
   }
 }
